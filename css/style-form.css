@@ -1,0 +1,35 @@
+#jsform fieldset{
+	border: 1px solid #ddd;
+	border-radius: .25rem;
+	padding: 1rem;
+	margin-top: 1rem;
+}
+/* Disabled Fieldset Styles */
+	#jsform fieldset[disabled] > legend ~ *{
+		opacity: .5;
+	}
+	@supports (filter:blur(1px)){
+		#jsform fieldset[disabled] > legend ~ *{
+			opacity: 1;
+			filter:blur(1px);
+		}
+	}
+/**/
+
+#jsform legend + *{
+	margin-top:0 !important;
+}
+#jsform legend{
+	width: auto;
+	padding: 0 0.25rem;
+	margin: 0 -.25rem;
+	font-size: inherit;
+	line-height: 1.2;
+}
+#jsform legend label{
+	margin:0 !important;
+	display: inline;
+}
+#jsform legend .tip{
+	display:inline;
+}

@@ -1,0 +1,19 @@
+{
+	"plugin-data":
+	{
+		"name": "Terse Tally",
+		"description": "Muestra el número de visitantes por día en tu panel."
+	},
+	"visits": "Visitas",
+	"visits-today": "Visitas de hoy",
+	"unique-visitors-today": "Visitantes únicos de hoy",
+	"chart": "Gráfico",
+	"table": "Tabla",
+	"show-content-stats": "Muestra Cuentas de Contenidos",
+	"content-statistics": "Cuentas de Contenidos",
+	"exclude-admin-users": "Excluir usuarios administradores",
+	"stat-style-on": "Disponible en el tema",
+	"stat-style-tip": "Permite que el tema o las páginas muestra la cuenta de visitas de hoy.",
+	"stat-style-howto": "Incluye una etiqueta con el atributo id=\"%1$s\" para mostrar la cuenta. Por ejemplo:<br><code>&lt;span id=\"%1$s\"&gt;Visitas Hoy: &lt;/span&gt;</code>",
+	"stat-style-id": "única identificador de CSS selector"
+}

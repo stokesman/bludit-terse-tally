@@ -1,0 +1,19 @@
+{
+	"plugin-data":
+	{
+		"name": "Statistiques",
+		"description": "Afficher le nombre de visiteurs par jour sur votre tableau de bord."
+	},
+	"visits": "Visites",
+	"visits-today": "Visites du jour",
+	"unique-visitors-today": "Visiteurs uniques du jour",
+	"chart": "Graphique",
+	"table": "Tableau",
+	"show-content-stats": "Show Content Stats",
+	"content-statistics": "Content Statistics",
+	"exclude-admin-users": "Exclude administrators users",
+	"stat-style-on": "Available for Theme",
+	"stat-style-tip": "Allows display of today's visits from theme or pages.",
+	"stat-style-howto": "Include an element with an id of \"%1$s\" to display. For example:<br><code>&lt;span id=\"%1$s\"&gt;Hits Today: &lt;/span&gt;</code>",
+	"stat-style-id": "Unique ID for CSS selector"
+}

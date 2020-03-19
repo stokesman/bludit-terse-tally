@@ -1,0 +1,19 @@
+{
+	"plugin-data":
+	{
+		"name": "آمار ساده",
+		"description": "نمایش روزانه بازدیدکنندگان در پیش خوان شما."
+	},
+	"visits": "بازدیدها",
+	"visits-today": "بازدیدهای امروز",
+	"unique-visitors-today": "بازدید کنندگان منحصر به فرد امروز",
+	"chart": "چارت",
+	"table": "جدول",
+	"show-content-stats": "Show Content Stats",
+	"content-statistics": "Content Statistics",
+	"exclude-admin-users": "Exclude administrators users",
+	"stat-style-on": "Available for Theme",
+	"stat-style-tip": "Allows display of today's visits from theme or pages.",
+	"stat-style-howto": "Include an element with an id of \"%1$s\" to display. For example:<br><code>&lt;span id=\"%1$s\"&gt;Hits Today: &lt;/span&gt;</code>",
+	"stat-style-id": "Unique ID for CSS selector"
+}
