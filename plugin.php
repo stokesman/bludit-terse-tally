@@ -184,7 +184,6 @@ EOF;
 
 	public function beforeAll()
 	{
-		// $webhook = 'visit.png';
 		$webhook = 'hit.css';
 		if ($this->webhook($webhook)) {
 
@@ -214,23 +213,6 @@ EOF;
 
 			// Stop Bludit execution
 			exit(0);
-
-			/* In case we later decide we need to send images
-			// Send image header
-			header('Content-type: image/png');
-			// Create the image
-			$currentDate = Date::current('Y-m-d');
-			$visitsToday = min($this->visits($currentDate), 99999);
-			$im     = imagecreatetruecolor(32, 12);
-			$color = imagecolorallocate($im, 220, 210, 60);
-			$x     = (imagesx($im) - 6 * strlen($visitsToday)) / 2;
-			imagestring($im, 2, $x, -1, $visitsToday, $color);
-			// send image
-			imagepng($im);
-			// cleanup
-			imagedestroy($im);
-			*/
-
 		}
 	}
 
